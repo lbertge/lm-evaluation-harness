@@ -1,0 +1,8 @@
+"dataset_name": "astronomy"
+"description": "The following are multiple choice questions (with answers) about astronomy.\n\
+  \n"
+"group": "mmlu_validation_stem"
+"group_alias": "stem"
+"include": "_mmlu_validation_template_yaml"
+"task": "mmlu_validation_astronomy"
+"task_alias": "astronomy"

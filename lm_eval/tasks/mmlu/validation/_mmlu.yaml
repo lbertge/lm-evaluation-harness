@@ -1,0 +1,6 @@
+group: mmlu_validation
+task:
+  - mmlu_validation_stem
+  - mmlu_validation_other
+  - mmlu_validation_social_sciences
+  - mmlu_validation_humanities

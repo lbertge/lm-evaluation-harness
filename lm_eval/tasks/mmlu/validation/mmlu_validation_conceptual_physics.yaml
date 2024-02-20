@@ -1,0 +1,8 @@
+"dataset_name": "conceptual_physics"
+"description": "The following are multiple choice questions (with answers) about conceptual\
+  \ physics.\n\n"
+"group": "mmlu_validation_stem"
+"group_alias": "stem"
+"include": "_mmlu_validation_template_yaml"
+"task": "mmlu_validation_conceptual_physics"
+"task_alias": "conceptual physics"

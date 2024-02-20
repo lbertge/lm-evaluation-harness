@@ -7,7 +7,7 @@ import argparse
 
 from tqdm import tqdm
 
-from lm_eval.logger import eval_logger
+from lm_eval.utils import eval_logger
 
 SUBJECTS = {
     "abstract_algebra": "stem",
@@ -120,6 +120,7 @@ if __name__ == "__main__":
 
         file_save_path = args.save_prefix_path + f"_{subject}.yaml"
         eval_logger.info(f"Saving yaml for subset {subject} to {file_save_path}")
+        # print("Saving yaml for subset", subject, "to", file_save_path)
         with open(file_save_path, "w", encoding="utf-8") as yaml_file:
             yaml.dump(
                 yaml_dict,
@@ -142,6 +143,7 @@ if __name__ == "__main__":
         file_save_path = args.save_prefix_path + ".yaml"
 
     eval_logger.info(f"Saving benchmark config to {file_save_path}")
+    # print("Saving benchmark config to", file_save_path)
     with open(file_save_path, "w", encoding="utf-8") as yaml_file:
         yaml.dump(
             {
