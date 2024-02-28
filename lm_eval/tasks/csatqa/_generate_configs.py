@@ -7,7 +7,7 @@ import argparse
 
 from tqdm import tqdm
 
-from lm_eval.logger import eval_logger
+from lm_eval.utils import eval_logger
 
 SUBSETS = ["WR", "GR", "RCS", "RCSS", "RCH", "LI"]
 
